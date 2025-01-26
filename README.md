@@ -87,18 +87,3 @@ To train and evaluate the model, run the following Python script:
 ```bash
 python app.py
 
-
----
-This will train the ensemble models on the provided dataset and output the performance metrics.
-
-Results and Evaluation
-The hybrid ensemble model (XGBoost + Random Forest + Gradient Boosting + ElasticNet) provided the best performance for predicting PPV, achieving an R² score of 0.974. The results demonstrate the power of ensemble learning techniques in overcoming the limitations of traditional empirical models.
-
-Applications and Future Scope
-Applications:
-Safer mining practices
-Reduced environmental damage
-Improved operational efficiency in blasting operations
-Future Scope:
-Real-time integration for dynamic PPV prediction
-Exploration of neural networks and other advanced AI techniques for further enhancement of prediction accuracy
